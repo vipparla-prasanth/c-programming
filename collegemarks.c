@@ -1,7 +1,7 @@
-#include<stdio.h>
-#include<stdlib.h>
+#include<stdio.h>      //included a header file for standard input and output
+#include<stdlib.h>        //specifically in this program we included this header file to write exit code only
 
-struct student
+struct student              //declaring stucture (global variables) 
 {
     char name[30];
     char roll[10];
@@ -227,3 +227,4 @@ int main()
     finalReview(s,n,opt);
     return 0;
 }
+
